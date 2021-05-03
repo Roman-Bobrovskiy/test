@@ -44,3 +44,10 @@ div{
     height: 150px;
     background-color: cornflowerblue;
 }
+
+@media  (max-width: 576px) {
+    .section_wrap {
+        flex-direction: column;
+        height: 100%;
+    }
+}
